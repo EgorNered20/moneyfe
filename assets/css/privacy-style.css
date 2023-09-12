@@ -1,0 +1,87 @@
+/*============================
+ 01. HERO                    *
+ *===========================*/
+
+#hero {
+    position: relative;
+    height: 128px;
+    width: 100%;
+    min-height: 128px;
+    background-color: #F1FFF6;
+    background-image: url(../images/hero-background-2.png);
+    background-size: cover;
+    background-position: bottom;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/*============================
+ 02. HEADER                  *
+ *===========================*/
+
+#header-section {
+    padding: 80px 8px 0 8px;
+    background-color: #F1FFF6;
+}
+
+#header-section h1 {
+    color: #182848;
+    font-size: 56px;
+    text-align: center;
+}
+
+#header-section p {
+    color: #182848;
+    opacity: 0.48 !important;
+    padding-top: 16px;
+    text-align: center;
+}
+
+
+/*============================
+ 03. PRIVACY                 *
+ *===========================*/
+
+#privacy-section {
+    padding: 24px 8px 80px 8px;
+    background-color: #F1FFF6;
+    overflow-x: hidden;
+}
+
+#privacy-section h4 {
+    color: #182848;
+    opacity: 0.8;
+    font-size: 18px;
+    padding: 8px 0;
+}
+
+#privacy-section p,
+#privacy-section li {
+    color: #182848;
+    opacity: 0.8;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#privacy-section a {
+    color: #6CBD8F;
+    cursor: pointer;
+    opacity: 1.0;
+    font-weight: 700;
+}
+
+#privacy-section a:hover {
+    text-decoration: underline;
+}
+
+
+/*============================
+04. RESPONSIVE              *
+*===========================*/
+
+@media only screen and ( max-width: 767px) {
+    #header-section h1 {
+        font-size: 40px;
+    }
+}
